@@ -37,16 +37,13 @@ JP_道具:
   item:
     name: "测试道具"
     lore:
-    - '§4右键切换模式 : §2 头盔'
-    - '建议使用网络链式'
-    - "bug请联系作者"
-    - '作者:J_ump'
-    - "QQ : 475977707 "
+     - "§4§lShift + 右键输入物品ID :"
+     - "§4§lShift + 右键输入物品数量 :"
     material: DIAMOND_SWORD
     amount: 1
   placeable: false
   recipe_type: 'JP_GOD_CRAFTING_TABLE'
-  script: "测试道具123" 
+  script: "测试脚本/测试道具1234" 
   recipe:
        2:
           material_type: slimefun
@@ -1434,10 +1431,10 @@ RPG_ZOMBIE_3:
   lateInit: false
   item_group: jp_prop
   item:
-    name: '&#d3102a&l鬼&#d3102a&l王'
+    name: '&#d3102a&l嗜血僵尸'
     lore:
       - '&e╔════════════════════════════════════╗'
-      - '&e║&c&l蕴含着雷电和火焰的力量'
+      - '&e║&c&l血液使我疯狂'
       - '&e╚════════════════════════════════════╝'
     material_type: saveditem
     material: RPG_3
@@ -1478,7 +1475,7 @@ RPG_ZOMBIE_4:
   lateInit: false
   item_group: jp_prop
   item:
-    name: '&#084cfb&l僵&#5a5ee9&l尸&#ab71d8&l之&#fd83c6&l王'
+    name: '&#084cfb&l不&#5a5ee9&l死&#ab71d8&l尸&#fd83c6&l王'
     lore:
       - '&e╔════════════════════════════════════╗'
       - '&e║&c&l无法想象的强大'
@@ -1516,6 +1513,22 @@ RPG_ZOMBIE_4:
     9:
       material_type: slimefun
       material: ANCIENT_RUNE_SOULBOUND 
+
+RPG_ZOMBIE_5:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '测试boss'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&c&l无法想象的强大'
+      - '&e╚════════════════════════════════════╝'
+    material_type: saveditem
+    material: RPG_5
+    amount: 1
+  placeable: true
+  recipe_type: NULL
+  recipe:     
           
 #提取材料
 
@@ -2619,3 +2632,47 @@ JP_复制权杖:
   placeable: false
   recipe_type: JP_GOD_CRAFTING_TABLE
   script: 道具脚本/复制权杖
+
+JP_ItemFrame_Tool:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&#fb340c&l展&#ce5c13&l示&#a18419&l框&#73ad20&l修&#46d526&l改&#19fd2d&l棒"
+    lore:
+      - '§4§lShift + 右键切换模式 : §2§l 隐形'
+    material: ECHO_SHARD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GJZZT
+  script: 工具脚本/展示框工具
+  recipe:      
+    2:
+        material_type: slimefun
+        material: HOLOGRAM_PROJECTOR
+        amount: 1
+    4:
+        material_type: slimefun
+        material: ADVANCED_CIRCUIT_BOARD
+        amount: 1       
+    6:
+        material_type: slimefun
+        material: ADVANCED_CIRCUIT_BOARD
+        amount: 1
+    5:
+        material_type: slimefun
+        material: SCROLL_OF_DIMENSIONAL_TELEPOSITION
+        amount: 1
+
+JP_ID棒:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&#ff0242&lI&#ff0a3a&lD&#ff1131&l棒"
+    lore:
+     - "§4§lShift + 右键输入物品ID :"
+     - "§4§lShift + 右键输入物品数量 :"
+    material: ECHO_SHARD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  script: 工具脚本/ID棒              

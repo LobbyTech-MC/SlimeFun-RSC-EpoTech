@@ -1,0 +1,90 @@
+
+# === 跃击 ===
+跃击:
+  Skills:
+    - lunge{velocity=1.5;velocityy=1} @target
+    - effect:sound{sound=entity.bat.takeoff} @self
+    - effect:particles{particle=cloud;amount=10;hs=1;viewdistance=1} @self
+    - delay 40
+    - effect:particles{particle=block_crack;amount=20;hs=1;viewdistance=1} @self
+    - damage{amount=100} @EIR{r=3}
+
+
+# === 嗜血效果 ===
+嗜血效果:
+  Skills:
+    - heal{amount=30} @self
+    - effect:particles{particle=heart;amount=1} @self
+    - weReplace{from=ACACIA_BOAT}
+
+# === 尸爆效果 ===
+尸爆效果:
+  Skills:
+    - delay 10
+    - effect:sound{sound=entity.generic.explode} @PIR{r=15}
+    - damage{amount=300} @PIR{r=5}
+    - effect:explosion @self
+
+# === 腐化领域 ===
+腐化领域:
+  Skills:
+    - potion{type=WEAKNESS;duration=100;level=1} @PIR{r=8}
+    - potion{type=SLOWNESS;duration=100;level=1} @PIR{r=8}
+    - effect:particles{particle=spell_witch;amount=3} @PIR{r=8}
+
+# === 魔神降临 ===
+魔神降临:
+  Skills:
+    - summon{type=Zombie_Lv3;amount=4} @LOC{r=5}
+    - effect:sound{sound=entity.wither.spawn} @PIR{r=20}
+    - effect:particles{particle=flame;amount=30} @self
+
+# === 灭世光环 ===
+灭世光环:
+  Skills:
+    - damage{amount=50} @PIR{r=15}
+    - effect:particles{particle=flame;amount=10} @PIR{r=15}
+
+# === 复活 ===
+复活:
+  Skills:
+    - cancelEvent
+    - setHealth{amount=9999999} @self
+    - effect:sound{sound=item.totem.use} @PIR{r=15}
+    - ps{radius=3;particle=totem;amount=50} @self
+
+# === 朝向目标跳跃 ===
+朝向目标跳跃:
+  Skills:
+    - lunge{velocity=1.5;velocityy=1} @target
+    - effect:sound{sound=entity.bat.takeoff} @self
+    - effect:particles{particle=cloud;amount=10;hs=1;viewdistance=1} @self
+    - delay 40
+    - effect:particles{particle=block_crack;amount=20;hs=1;viewdistance=1} @self 
+    
+# === 生命汲取 ===
+生命汲取:
+  Skills:
+    - damage{amount=60} @target
+    - heal{amount=60} @self
+    - effect:particles{particle=redstone;color=128,0,0;amount=20} @self
+    - effect:sound{sound=entity.player.hurt} @target
+
+# === 烈焰风暴 ===
+烈焰风暴:
+  Skills:
+  - orbital{radius=0;ontickskill=[
+      - effect:particlering{points=100;radius=5} @origin
+      - delay 40
+      - orbital{radius=0;onstartskill=[
+        - projectile{se=false;sb=false;gravity=-1;Fromorigin=True;ontickskill=[
+          - e:p{particle=flame;hspread=2;radius=0} @origin
+        ]} @rlno{amount=1}
+      ]}
+    ];onstartskill=[
+        - delay 40 
+        - orbital{radius=0;ontickskill=[
+          - effect:particle{hspread=2;amount=100} @origin  
+        ]} @origin
+    ]} @origin
+

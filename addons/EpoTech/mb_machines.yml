@@ -795,4 +795,27 @@ JP_工具组装台:
       output:
          material_type: slimefun
          material: JP_空岛镐 
-         amount: 1                               
+         amount: 1
+
+    JP_ItemFrame_Tool:
+      input:  
+       2:
+          material_type: slimefun
+          material: HOLOGRAM_PROJECTOR 
+          amount: 1  
+       4:
+          material_type: slimefun
+          material: ADVANCED_CIRCUIT_BOARD 
+          amount: 1
+       5:
+          material_type: slimefun
+          material: SCROLL_OF_DIMENSIONAL_TELEPOSITION 
+          amount: 1    
+       6:
+          material_type: slimefun
+          material: ADVANCED_CIRCUIT_BOARD 
+          amount: 1           
+      output:
+         material_type: slimefun
+         material: JP_ItemFrame_Tool 
+         amount: 1                                  

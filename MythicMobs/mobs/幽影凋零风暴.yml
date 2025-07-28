@@ -1,0 +1,94 @@
+幽影凋零风暴:
+  Type: WARDEN
+  Display: '&c幽影凋零风暴'
+  Health: 30000
+  Armor: 200
+  BossBar:
+    Enabled: true
+    Color: RED
+    Style: SOLID
+    Range: 30.00
+  Damage: 150
+  Options: 
+    PreventOtherDrops: true
+    PreventRandomWalk: true
+    PreventMobKillDrops: true 
+    AttackSpeed: 10
+  Modules:
+    ThreatTable: true  
+  AIGoalSelectors:
+    - clear
+    - Players
+    - meleeattack
+  AITargetSelectors:
+    - clear
+    - players 
+  Drops:
+    - 五级核心 1 50%      
+  Skills:
+  - randomskill{
+    skills=[
+      - Skill:暗影新星 50
+    ],
+    [
+      - Skill:虚空锚定 50
+    ]} @trigger ~onTimer:20 =100%-60%
+  - randomskill{
+    skills=[
+      - Skill:影袭 50
+    ],
+    [
+      - Skill:凋零连珠加强版 50
+    ]} @trigger ~onTimer:20 =60%-30%
+  - randomskill{
+    skills=[
+      - skill:虚空坍缩 50
+    ],
+    [
+      - skill:幽影旋风 50
+    ]} @trigger ~onTimer:20 =30%-0%  
+  - Summon{m=凋零仆从;Amount=2to3;Radius=5} @origin ~onTimer:500 <60%
+  - Summon{m=末影水晶;Amount=2to3;Radius=50} @origin ~onTimer:500 <30%
+  - Summon{m=幽影巨人;Amount=1;Radius=5;cooldown=9999} @origin ~onHurt <10% 
+
+幽影巨人:
+  Type: IRON_GOLEM
+  Health: 3000
+  Damage: 1000
+  AIGoalSelectors:
+    - clear
+    - Players
+    - meleeattack
+  AITargetSelectors:
+    - clear
+    - parentAttack
+    - players
+  Options:
+    MovementSpeed: 0.1
+    
+凋零仆从:
+  Type: SKELETON
+  Display: '&c凋零仆从'
+  Health: 200
+  Skills:
+  - damage{amount=50} @trigger ~onBowhit  
+  - skill:凋零仆从死亡 @trigger{targetplayers=true} ~onDeath 
+
+感叹号:
+  Type: armor_stand
+  Options:
+    Invisible: true
+  Skills:
+  - skill:感叹号图像包 @origin ~onSpawn   
+
+末影水晶:
+  Type: ENDER_CRYSTAL
+  Options:
+    NoAI: true
+  Skills:
+  - heal{amount=20;overheal=true} @Parent ~onTimer:200
+  - particleline{particle=red_dust;amount=50} @Parent ~onTimer:200
+  - particleline{particle=red_dust;amount=50} @PIR{radius=50} ~onTimer:2000
+  - Damage{amount=90} @PIR{radius=50} ~onTimer:2000
+  
+          

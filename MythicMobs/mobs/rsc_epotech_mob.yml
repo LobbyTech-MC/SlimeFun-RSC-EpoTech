@@ -1,0 +1,77 @@
+# === Lv1 基础僵尸 ===
+Zombie_Lv1:
+  Type: ZOMBIE
+  Display: "&7普通僵尸"
+  Health: 50
+  Damage: 20
+  Armor: 10   
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+  Drops:
+    - 一级核心 1 50%
+  Skills:
+    - skill:复活 @self ~onDamaged <10% 0.1
+    
+
+# === Lv2 精英僵尸（3倍） ===
+Zombie_Lv2:
+  Type: ZOMBIE
+  Display: "&4精英僵尸 &e⚔"
+  Health: 150
+  Damage: 60
+  Armor: 30
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    AttackSpeed: 10
+  Drops:
+    - 二级核心 1 50% 
+  Skills:
+    - skill:影袭 @self ~onTimer:100  0.5
+    - skill:复活 @self ~onDamaged <10% 0.1   
+
+# === Lv3 嗜血僵尸（9倍） ===
+Zombie_Lv3:
+  Type: ZOMBIE
+  Display: "&4嗜血僵尸 &c🩸"
+  Health: 450
+  Damage: 10
+  Armor: 90
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    AttackSpeed: 15
+    MovementSpeed: 0.3
+  Drops:
+    - 三级核心 1 50%   
+  Skills:
+    - skill:嗜血效果 @self ~onAttack 0.5
+    - skill:跃击 @PlayersInRing{min=5;max=10}  ~onAttack 0.3 
+
+# === Lv4 不死尸王（27倍） ===
+Zombie_Lv4_Boss:
+  Type: ZOMBIE
+  Display: "&4不死尸王 &4&l☠"
+  Health: 1350
+  Damage: 540
+  BossBar:
+    Enabled: true
+    Color: RED
+    Style: SOLID
+    Range: 30.00
+  Options:
+    PreventSunburn: true
+    KnockbackResistance: 1
+    AttackSpeed: 20
+    MovementSpeed: 0.4
+  Skills:
+    - skill:嗜血效果 @self ~onAttack 0.5
+    - skill:尸爆效果 @self ~onDeath
+    - skill:腐化领域 @self ~onTimer:200 0.1
+    - skill:魔神降临 @self ~onSpawn
+    - skill:灭世光环 @self ~onTimer:200 0.1
+    - skill:跃击 @PlayersInRing{min=5;max=10}  ~onAttack 0.3 
+    - skill:复活 @self ~onDamaged <10% 0.1 
+  Drops:
+    - 四级核心 1 50%    

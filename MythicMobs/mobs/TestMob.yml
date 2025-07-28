@@ -1,0 +1,21 @@
+TestMob:
+  Type: ZOMBIE
+  Display: '&c测试怪物'
+  Health: 1000
+  Damage: 10
+  Skills:
+  - skill:影袭 @trigger ~onTimer:100 
+  Modules:
+    ThreatTable: true 
+  Options: 
+    NoAI: false
+    PreventOtherDrops: true
+    PreventRandomWalk: true
+    PreventMobKillDrops: true 
+
+盔甲架:
+  Type: armor_stand
+  Skills:
+  - skill:虚空坍缩 @trigger ~onSpawn 
+
+
