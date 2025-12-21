@@ -1,0 +1,52 @@
+暗影新星:
+  Conditions:
+  - hasTag{tag=技能释放标签} false 
+  Cooldown: 6
+  Skills:
+  - addtag{tag=技能释放标签} @self
+  - orbital{radius=0;ticks=100;onstartskill=[
+      - setVar{var=skill.半径;v=1;type=FLOAT}
+      - setVar{var=skill.变小半径;v=1;type=FLOAT}
+    ];ontickskill=[
+      - variableSub{var=skill.变小半径;a=0.1} @self
+      - particlesphere{p=spell_witch;color=#c77dff;radius=<skill.var.变小半径>;amount=50;yoffset=0.5}
+    ];onendskill=[
+      - removetag{tag=技能释放标签} @self 
+      - orbital{radius=0;ticks=30;interval=1;ontickskill=[
+        - varAdd{var=skill.半径;a=0.5} @self
+        - particlering{P=red_dust;color=#9d00ff;radius=<skill.var.半径>;points=<skill.var.半径>*30;yoffset=0.8}
+        - potion{type=BLINDNESS} @EIRR{max=<skill.var.半径>}
+        - delay 20
+        - baseDamage{multiplier=1} @EIRR{max=<skill.var.半径>}
+      ]}
+    ]} @selfLocation
+
+  
+凋零仆从死亡:
+  Skills:
+  - randomskill{s=[
+    - Potion{Duration=1200;type=RESISTANCE;Level=4} 50],
+    [ 
+    - Potion{Duration=1200;type=STRENGTH;Level=10} 50
+    ]}
+
+虚空锚定:
+  Conditions:
+  - hasTag{tag=技能释放标签} false 
+  Cooldown: 6
+  Skills:
+  - addtag{tag=技能释放标签} @self
+  - orbital{radius=0;ticks=100;ontickskill=[
+    - orbital{r=0;bullet=MOB;mm=感叹号;d=100} @origin{y=5} 
+    - particlering{r=5;p=red_dust;points=50}
+    ];os=[
+      - SendTitle{title="该区域已被锁定,请尽快离开";duration=40} @playersInRadius{radius=5}
+    ];oe=[
+      - removetag{tag=技能释放标签} @self 
+      - Projectile{HorizontalRadius=6;fromorigin=true;syo=10;v=45;ontickskill=[
+        - e:ps{radius=2;particle=lava;amount=100}
+      ];onhitskill=[
+        - blockwave{radius=10;v=1;duration=60} @origin{yoffset=5}
+        - baseDamage{multiplier=20} @playersInRadius{radius=5}
+      ]} @origin{y=-1}
+    ]} @targetLoc

@@ -1,0 +1,53 @@
+虚空坍缩:
+  Conditions:
+  - hasTag{tag=技能释放标签} false 
+  Cooldown: 6
+  Skills:
+  - addtag{tag=技能释放标签} @self
+  - SendTitle{title="虚空降临，万物归寂！";subtitle="感受宇宙的终焉...";duration=60} @playersInRadius{radius=50}
+  - delay 60
+  - tp{unsafe=true} @origin{yoffset=15}
+  - SetGravity{gravity=false} @self
+  - setai{ai=false} @self
+  - SendTitle{title="终焉奇点已激活";subtitle="3秒后空间坍缩";duration=60} @playersInRadius{radius=50}
+  - delay 60
+  - orbital{radius=0;ticks=200;onstartskill=[
+    - setVar{var=skill.缩小半径;v=25;type=FLOAT}
+    - setVar{var=skill.放大半径;v=0;type=FLOAT}
+      ];ontickskill=[
+      - variableSub{var=skill.缩小半径;a=0.8} @self
+      - ps{radius=<skill.var.缩小半径>;p=end_rod;amount=30*<skill.var.缩小半径>} ?varrange{var=skill.缩小半径;value=>0;onfailskill=[
+        - setVar{var=skill.缩小半径;v=25;type=FLOAT}
+      ]} @self
+      - ps{radius=<skill.var.缩小半径>/2;p=spell_witch;color=#c77dff;amount=30*<skill.var.缩小半径>/2} @self
+      ];onendskill=[
+      - setai{ai=true} @self
+      - SetGravity{gravity=true} @self
+      - removetag{tag=技能释放标签} @self 
+      - orbital{fromorigin=true;hitnonplayers=true;ontickskill=[
+        - varAdd{var=skill.放大半径;a=1.2} @self
+        - ps{radius=<skill.var.放大半径>;p=redstone;color=#9d00ff;amount=30*<skill.var.放大半径>} @origin
+        - ps{radius=<skill.var.放大半径>/1.5;p=dragon_breath;amount=30*<skill.var.放大半径>/1.5} @origin
+        - baseDamage{multiplier=2.0} @playersInRadius{radius=<skill.var.放大半径>} ?isblocking
+      ]} 
+    ]} @selfLocation
+
+
+幽影旋风:
+  Conditions:
+  - hasTag{tag=技能释放标签} false 
+  Cooldown: 6
+  Skills:
+  - addtag{tag=技能释放标签} @self
+  - projectile{maxduration=100;stopatentity=false;stopatblock=false;onendskill=[
+    - removetag{tag=技能释放标签} @self 
+    ];OnStart=[
+    - spin{d=100;V=18} @self
+    ];ontick=[
+      - Lunge{Velocity=0.1}
+      - projectile{maxduration=100;stopatentity=false;stopatblock=false;ontickskill=[
+        - particlesphere{radius=0.5;amount=10;p=redstone;color=#9d00ff;speed=0.1;yoffset=0.5}
+    ];onhitskill=[
+      - baseDamage{multiplier=1.5} 
+      ]} @forward{rotate=<random.float.30to-30>;yoffset=0.5}
+    ]} @target

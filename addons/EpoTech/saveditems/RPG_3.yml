@@ -1,0 +1,16 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3955
+  type: PIG_SPAWN_EGG
+  meta:
+    ==: ItemMeta
+    meta-type: SPAWN_EGG
+    display-name: '{"text":"嗜血僵尸 ","extra":[{"text":"🩸 Spawn Egg","color":"red"}],"italic":false,"color":"dark_red"}'
+    lore:
+    - '{"text":"A Mythical Egg that can","italic":false,"color":"dark_gray"}'
+    - '{"text":"be used to resurrect a","italic":false,"color":"dark_gray"}'
+    - '{"text":"嗜血僵尸 ","extra":[{"text":"🩸 Spawn Egg","color":"red"}],"italic":false,"color":"dark_red"}'
+    custom-model-data: 1
+    enchants:
+      minecraft:unbreaking: 10
+    custom: H4sIAAAAAAAA/+NiYOBg4PKNDPHwdI53dXdn4IrKz03KTI33KTNmAABewxzjHQAAAA==

@@ -1,0 +1,2678 @@
+JP_SM:
+  lateInit: false
+  item_group: jp_xx
+  item:
+    name: '&c&l扩展说明'
+    lore:
+    - '创世纪元'
+    - '建议使用网络链式'
+    - "bug请联系作者"
+    - '作者:J_ump'
+    - "QQ : 475977707 "
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+JP_CSWQ:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: "测试武器"
+    lore: 
+    - "剩余伤害: 10"
+    material: DIAMOND_SWORD
+    amount: 1
+  placeable: false
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  script: "测试脚本/测试武器"
+  recipe:
+       2:
+          material_type: slimefun
+          material: JP_NULL
+
+JP_道具:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: "测试道具"
+    lore:
+     - "§4§lShift + 右键输入物品ID :"
+     - "§4§lShift + 右键输入物品数量 :"
+    material: DIAMOND_SWORD
+    amount: 1
+  placeable: false
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  script: "测试脚本/测试道具1234" 
+  recipe:
+       2:
+          material_type: slimefun
+          material: JP_NULL    
+
+JP_头盔:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: "&c测试头盔"
+    lore:
+    material: LEATHER_HELMET
+    amount: 1
+  energy_capacity: 1000000
+  placeable: false
+  recipe_type: NULL
+              
+
+JP_NULL:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: '&c&l当你抽到这个的时候就代表你什么都没抽到'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+
+
+JP_击杀:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: '&c&l击杀该生物'
+    material: DIAMOND_SWORD
+    amount: 1
+  placeable: false
+  recipe_type: NULL   
+
+
+#菜单占位符
+
+ZWF_9:
+  lateInit: false
+  item_group: jp_zwf_9 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL  
+  
+ZWF_12:
+  lateInit: false
+  item_group: jp_zwf_12
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL  
+  
+ZWF_13:
+  lateInit: false
+  item_group: jp_zwf_13 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL  
+          
+ZWF_14:
+  lateInit: false
+  item_group: jp_zwf_14 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL  
+  
+ZWF_17:
+  lateInit: false
+  item_group: jp_zwf_17 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+
+ZWF_18:
+  lateInit: false
+  item_group: jp_zwf_18 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_19:
+  lateInit: false
+  item_group: jp_zwf_19 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+
+ZWF_20:
+  lateInit: false
+  item_group: jp_zwf_20
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_21:
+  lateInit: false
+  item_group: jp_zwf_21 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_22:
+  lateInit: false
+  item_group: jp_zwf_22 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+
+ZWF_23:
+  lateInit: false
+  item_group: jp_zwf_23 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_24:
+  lateInit: false
+  item_group: jp_zwf_24 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_25:
+  lateInit: false
+  item_group: jp_zwf_25 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_26:
+  lateInit: false
+  item_group: jp_zwf_26 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_27:
+  lateInit: false
+  item_group: jp_zwf_27 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_28:
+  lateInit: false
+  item_group: jp_zwf_28 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_34:
+  lateInit: false
+  item_group: jp_zwf_34 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_35:
+  lateInit: false
+  item_group: jp_zwf_35 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_36:
+  lateInit: false
+  item_group: jp_zwf_36 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_37:
+  lateInit: false
+  item_group: jp_zwf_37 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_38:
+  lateInit: false
+  item_group: jp_zwf_38 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_39:
+  lateInit: false
+  item_group: jp_zwf_39 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_40:
+  lateInit: false
+  item_group: jp_zwf_40 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+
+ZWF_41:
+  lateInit: false
+  item_group: jp_zwf_41 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_42:
+  lateInit: false
+  item_group: jp_zwf_42 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+ZWF_43:
+  lateInit: false
+  item_group: jp_zwf_43 
+  item:
+    name: '这只是个占位符'
+    material: PAPER
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+        
+###基础材料
+
+JP_JXHX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&e机械核心'
+    lore:
+    - '组装机器必备的强化核心'
+    material_type: skull_hash
+    material: 9580e5cd970c1ded973d0c139be418b0755e0713345d716ed594244a53e6e13d
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_JCJXFK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_JCJXFK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ANDROID_MEMORY_CORE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ANDROID_MEMORY_CORE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID
+      amount: 1
+    8:
+      material_type: slimefun
+      material: STABILIZED_BLISTERING_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID
+      amount: 1
+
+JP_JBJQR:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&4&l脚本机器人'
+    lore:
+    - '&n&1嗨嗨嗨,没有脚本的福音来咯'
+    material_type: skull_hash
+    material: 58e286d54d5197a1f6758a4438928cd43643d708063edaea073a10e1d223e30c
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_JXHX
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_JXB
+      amount: 1
+    5:
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID_3
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_JXB
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: STABILIZED_BLISTERING_BLOCK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+
+JP_JXKJ:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&l机械框架'
+    lore:
+    - '&n&6坚若磐石'
+    material_type: skull_hash
+    material: 7ef65cd50b885b705e558e95836a12477acc8ba36eae588b22569496c7043680
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_SRHX
+      amount: 1
+    5:
+      material_type: slimefun
+      material: NTW_RADIOACTIVE_OPTIC_STAR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_SRHX
+      amount: 1
+    7:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: MACHINE_PLATE
+      amount: 1  
+
+JP_JCJXFK:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&e&4基础机械方块'
+    lore:
+    - '&b组装机器必备的基础机械方块'
+    material_type: skull_hash
+    material: 88522d73d08e97216915e9c2446e400be7bd8cf614177493f38388d5276080a
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_WGKJ
+      amount: 1       
+
+JP_SRHX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&l散热核心'
+    lore:
+    - '&n&6纳米降温'
+    material_type: skull_hash
+    material: 999edafec1cb6c3e1f01ce1d8304aead0c5db019a7eae4a83f8f2f1e5ff99bbc
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: FREEZER_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: FREEZER_2
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1   
+
+
+JP_WKS:
+  item_group: jp_cl
+  item:
+    name: "&0&l钨矿石"
+    lore:
+    - '&c&l挖掘黑曜石掉落'
+    material: ANCIENT_DEBRIS
+  recipe_type: NULL
+  recipe:
+    5:
+      material_type: mc
+      material: OBSIDIAN
+      amount: 1
+    2:
+      material_type: mc
+      material: DIAMOND_PICKAXE
+      amount: 1  
+  drop_from: OBSIDIAN
+  drop_chance: 10
+  drop_amount: 1  
+
+JP_WG:
+  item_group: jp_cl
+  item:
+    name: "&0&l钨钢"
+    material: NETHERITE_INGOT
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_WKS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: STEEL_INGOT
+      amount: 1
+
+JP_WGK:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&0&l钨钢块'
+    material: NETHERITE_BLOCK
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    8:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_WG
+      amount: 1    
+    
+JP_KJ_HX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&l框架核心'
+    lore:
+    - '&n&6去除棱角,经过进一步加工'
+    - '&c&l经过智能车间加工而成'
+    material_type: skull_hash
+    material: 7daadf82bb67826d6d33ce7d866d543ae351eafad7cb39aa38e958a05d689284
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_ZNCJ
+      amount: 1  
+
+JP_WGKJ:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&l钨钢框架'
+    lore:
+    - '&n&6雕刻的框架'
+    - '&c&l经过智能车间加工而成'
+    material_type: skull_hash
+    material: c62543577552dc06c7f2069194b55eb1708ff33f42e516e3feabf58b55c26972
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_ZNCJ
+      amount: 1 
+
+JP_WGKJHX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&l钨钢框架核心'
+    lore:
+    - '&n&6替换了核心,更强了'
+    - '&c&l经过智能车间加工而成'
+    material_type: skull_hash
+    material: 38036b85171a9c25b8b9b2f1ae6523d1d758dc1a1f653765a4f1ad9e24017c7b
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_ZNCJ
+      amount: 1 
+ 
+JP_JGQGQ:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&9激光切割器'
+    lore:
+    - '&n&5切割物品,但是一次性'
+    material_type: skull_hash
+    material: 18ee67d7a5b675b57d1b7c7ae79280d2c19828e582f07339cfb3ed9b90ff1236
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    5:
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1  
+
+JP_JXB:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&3&l机械臂'
+    lore:
+    - '&n&6坚若磐石'
+    material_type: skull_hash
+    material: 22bb37f0329f6bb5c3cf561feca0be1034c99a48f5e1c711dc9b835dc39957ae
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_ZC
+      amount: 1
+    7:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+      amount: 1            
+
+JP_ZNKZZX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&b智能控制中心'
+    lore:
+    - '&7由ai完成全自动生产'
+    material_type: skull_hash
+    material: d56c9461903123168ce667ead7ea56a51613097049ba647832b3722affbeb636
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1
+    2:
+      material_type: slimefun
+      material: GPS_TRANSMITTER
+      amount: 1
+    3:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_JXHX
+      amount: 1
+    5:
+      material_type: slimefun
+      material: ANDROID_MEMORY_CORE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_JXHX
+      amount: 1
+    7:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1
+    8:
+      material_type: slimefun
+      material: JP_GMK
+      amount: 1
+    9:
+      material_type: slimefun
+      material: CARBONADO
+      amount: 1      
+
+JP_GMK:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&b光模块'
+    lore:
+    - '&7信息数据传输'
+    material_type: skull_hash
+    material: dbfa21bf7727586e21de88c424aec3fb03dfaf26457c0dd944bf03e53399e280
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: NTW_OPTIC_GLASS
+      amount: 1
+    2:
+      material_type: slimefun
+      material: NTW_OPTIC_GLASS
+      amount: 1
+    3:
+      material_type: slimefun
+      material: NTW_OPTIC_GLASS
+      amount: 1
+    4:
+      material_type: slimefun
+      material: NTW_OPTIC_STAR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: NTW_OPTIC_STAR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: NTW_OPTIC_STAR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: NTW_OPTIC_GLASS
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: NTW_OPTIC_GLASS
+      amount: 1            
+
+JP_DDJFZMK:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&b堆叠机复制模块'
+    lore:
+    - '&7堆叠机模块-复制'
+    material_type: skull_hash
+    material: b2e594ea15486eb19261f2111e95837ad6e9a6b1d549c70ecfe7f83e41362b57
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_ZNKZZX
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_JXB
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_JXB
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ELECTRIC_PRESS_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1      
+
+JP_DDJJSMK:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&b堆叠机加速模块'
+    lore:
+    - '&7堆叠机模块-加速'
+    material_type: skull_hash
+    material: fa3fa916b5e5915e026b91b264544398ff02d1eede7630bc8158f3a663ca02ad
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: JP_ZNKZZX
+      amount: 1
+    3:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: JP_GMK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: JP_GMK
+      amount: 1
+    7:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: NUCLEAR_REACTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: JP_JXKJ
+      amount: 1          
+
+JP_ZC:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&c轴承'
+    lore:
+    - '&a滚动吧~'
+    - '&c&l经过智能车间加工而成'
+    material_type: skull_hash
+    material: bb2abd66939f4cb7257a88cf52fbc6fdceec1433ec2a6ef16d62e34f6238781
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_ZNCJ
+      amount: 1 
+
+JP_BEEBZQ:
+  lateInit: false
+  item_group: jp_yfr
+  item:
+    name: '&l&#FBC373蜜蜂捕捉器'
+    lore:
+    - '&#7F48FB右键捕捉蜜蜂'
+    material_type: mc
+    material: COBWEB
+    amount: 1
+  placeable: false
+  script: 工具脚本/蜜蜂捕捉器
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: STRING
+      amount: 1
+    2:
+      material_type: mc
+      material: STRING
+      amount: 1
+    3:
+      material_type: mc
+      material: STRING
+      amount: 1
+    4:
+      material_type: mc
+      material: STRING
+      amount: 1   
+    5:
+      material_type: mc
+      material: HONEYCOMB
+      amount: 1
+    6:
+      material_type: mc
+      material: STRING
+      amount: 1   
+    7:
+      material_type: mc
+      material: STRING
+      amount: 1
+    8:
+      material_type: mc
+      material: STRING
+      amount: 1
+    9:
+      material_type: mc
+      material: STRING
+      amount: 1             
+
+JP_FENGCHAO:
+  lateInit: false
+  item_group: jp_yfr
+  item:
+    name: '&l&b蜂巢'
+    lore:
+    - '&7材料蜂巢'
+    material_type: mc
+    material: BEEHIVE
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    2:
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID_2
+      amount: 1  
+    3:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+      amount: 1
+    5:
+      material_type: mc
+      material: BEEHIVE
+      amount: 1
+    7:
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID
+      amount: 1
+    8:
+      material_type: slimefun
+      material: VEX_GEM_1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: PROGRAMMABLE_ANDROID
+      amount: 1   
+
+JP_BEE:
+  lateInit: false
+  item_group: jp_yfr
+  item:
+    name: '&l&b机械蜜蜂'
+    lore:
+    - '&#85FBC8人工捕捉的机械蜜蜂'
+    material_type: skull_hash
+    material: fa464fee2f9e5d30b833476c30e11a15cc4855402fbea83bd5717d3a277b4fdc
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_BEEBZQ
+      amount: 1
+      
+JP_YX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&c有序压缩核心'
+    lore:
+    - '浓缩就是精华~'
+    - '&c&l经过机器工厂加工而成'
+    material: SLIME_BALL
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  
+
+JP_WX:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&c无序压缩核心'
+    lore:
+    - '浓缩就是精华~'
+    - '&c&l经过机器工厂加工而成'
+    material: WHEAT_SEEDS
+    amount: 1
+  placeable: false
+  recipe_type: NULL  
+
+#怪物掉落物
+
+JP_成年礼:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#42b9fb&l成&#9297fc&l年&#e275fd&l礼'
+    lore:
+    - '&c&lbaby赠送的成年礼'
+    material_type: skull_hash
+    material: 21bc9d42b0041e8f95cb9b26628fdaf50cd0e36f7bb9d6b3a4d2af3949da97d6
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+JP_科比残骸:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#42b9fb&l科&#77a2fc&l比&#ad8cfc&l残&#e275fd&l骸'
+    lore:
+    - '&c&l被击落机打下时获得'
+    - '&#42b9fb&lM&#54b1fb&la&#66aafb&lm&#77a2fc&lb&#899bfc&la&#9b93fc&l &#ad8cfc&lO&#be84fd&lu&#d07dfd&lt&#e275fd&l!'
+    material_type: skull_hash
+    material: bd3d1a1404fc4c95f7f947b99579821300bac92e8e231bee547503ddeb635adc
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+JP_岩浆怪精华:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#42b9fb&l岩&#6aa8fc&l浆&#9297fc&l怪&#ba86fd&l精&#e275fd&l华'
+    lore:
+    - '&c&l击杀大于64size岩浆怪掉落'
+    material_type: skull_hash
+    material: a1c97a06efde04d00287bf20416404ab2103e10f08623087e1b0c1264a1c0f0c
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    2:
+      material_type: mc
+      material: DIAMOND_SWORD
+      amount: 1 
+    5:
+      material_type: mc
+      material: Magma_Cube_SPAWN_EGG
+      amount: 1 
+
+JP_史莱姆精华:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#42b9fb&l史&#6aa8fc&l莱&#9297fc&l姆&#ba86fd&l精&#e275fd&l华'
+    lore:
+    - '&c&l击杀大于64size史莱姆掉落'
+    material_type: skull_hash
+    material: 86c27b013f1bf3344869e81e5c610027bc45ec5b79514fdc96e01df1b7e3a387
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    2:
+      material_type: mc
+      material: DIAMOND_SWORD
+      amount: 1 
+    5:
+      material_type: mc
+      material: SLIME_SPAWN_EGG
+      amount: 1 
+
+JP_JH_1:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#ffffff&l1&#fee6b9&l级&#fecd73&l核&#fdb42d&l心'
+    lore:
+    - '&c&l击杀1级怪物掉落'
+    material_type: skull_hash
+    material: 6136724745c8c9abc75cdf2205f2cd1d33e6bfefa415f995be76922912169ec9
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    2:
+      material_type: mc
+      material: DIAMOND_SWORD
+      amount: 1 
+    5:
+      material_type: slimefun
+      material: RPG_ZOMBIE_1
+      amount: 1     
+  
+JP_JH_2:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#fdb42d&l2&#cd8364&l级&#9d529c&l晶&#6d21d3&l核'
+    lore:
+    - '&c&l击杀2级怪物掉落'
+    material_type: skull_hash
+    material: ad9913a661c38f5f700b80798a8c485d332d78345b7671d0a248a84b2099bf4e
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+  recipe:
+    2:
+      material_type: mc
+      material: DIAMOND_SWORD
+      amount: 1 
+    5:
+      material_type: slimefun
+      material: RPG_ZOMBIE_2
+      amount: 1    
+
+JP_JH_3:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#d32a91&l3&#d35971&l级&#d38850&l晶&#d3b730&l核'
+    lore:
+    - '&c&l击杀鬼王掉落'
+    material_type: skull_hash
+    material: d71b954e89aed156f90fafce6dc7788ac76b6466cecca3a4f4ec1e463eb914a1
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+  recipe:
+    2:
+      material_type: mc
+      material: DIAMOND_SWORD
+      amount: 1 
+    5:
+      material_type: slimefun
+      material: RPG_ZOMBIE_3
+      amount: 1 
+
+JP_JH_4:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&#d3b730&l4&#a0ce64&l级&#6de698&l晶&#3afdcc&l核'
+    lore:
+    - '&c&l击杀4级怪物掉落'
+    material_type: skull_hash
+    material: d37a159687be36877d4e3b05f61bb598d8331c79108acc3c1af80f2253892bb2
+    amount: 1
+  placeable: false
+  recipe_type: NULL   
+
+JP_JH_5:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: '&c&l5级晶核'
+    lore:
+    - '&c&l击杀5级怪物掉落'
+    material_type: skull_hash
+    material: 71c8042527f81c8e293e2810113489f4394cc6efe15d1afac431571c73b62dc4
+    amount: 1
+  placeable: false
+  recipe_type: NULL 
+
+JP_JH_6:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: '&c&l世界晶核'
+    lore:
+    - '&c&l击杀Boss获得'
+    material_type: skull_hash
+    material: 6e13031b00b14f1779119e05e3b9ce62aa7adf667a21eeb43d92f4fd36e3965
+    amount: 1
+  placeable: false
+  recipe_type: NULL
+
+  #生物蛋
+
+RPG_ZOMBIE_1:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#ffffff&l神&#fee6b9&l秘&#fecd73&l生&#fdb42d&l物'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&c&l里面似乎有东西在跳动'
+      - '&e╚════════════════════════════════════╝'
+    material_type: saveditem
+    material: JP_SMGW_1
+    amount: 1
+  placeable: true
+  recipe_type: JP_SWSYS
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_SHEEP_GENOME
+    2:
+      material_type: slimefun
+      material: JP_COW_GENOME
+    3:
+      material_type: slimefun
+      material: JP_PIG_GENOME 
+    4:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME
+    5:
+      material_type: slimefun
+      material: JP_RABBIT_GENOME
+    6:
+      material_type: slimefun
+      material: JP_PUFFERFISH_GENOME
+    7:
+      material_type: slimefun
+      material: JP_COD_GENOME
+    8:
+      material_type: slimefun
+      material: JP_SALMON_GENOME
+    9:
+      material_type: slimefun
+      material: JP_TROPICAL_FISH_GENOME
+
+RPG_ZOMBIE_2:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#ffffff&l神&#fee6b9&l秘&#fecd73&l生&#fdb42d&l物LV.2'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&c&l里面似乎有东西在跳动'
+      - '&e╚════════════════════════════════════╝'
+    material_type: saveditem
+    material: JP_SMGW_2
+    amount: 1
+  placeable: true
+  recipe_type: JP_SWSYS
+  recipe:
+    1:
+      material_type: slimefun
+      material: BEEF_JERKY
+    2:
+      material_type: slimefun
+      material: PORK_JERKY
+    3:
+      material_type: slimefun
+      material: CHICKEN_JERKY 
+    4:
+      material_type: slimefun
+      material: MUTTON_JERKY
+    5:
+      material_type: slimefun
+      material: JP_JH_1
+    6:
+      material_type: slimefun
+      material: RABBIT_JERKY
+    7:
+      material_type: slimefun
+      material: MONSTER_JERKY
+    8:
+      material_type: slimefun
+      material: FISH_JERKY
+    9:
+      material_type: slimefun
+      material: KELP_COOKIE   
+
+RPG_ZOMBIE_3:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#d3102a&l嗜血僵尸'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&c&l血液使我疯狂'
+      - '&e╚════════════════════════════════════╝'
+    material_type: saveditem
+    material: RPG_3
+    amount: 1
+  placeable: true
+  recipe_type: JP_SWSYS
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANCIENT_RUNE_LIGHTNING
+    2:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+    3:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE 
+    4:
+      material_type: slimefun
+      material: ENDER_LUMP_3
+    5:
+      material_type: slimefun
+      material: JP_JH_2
+    6:
+      material_type: slimefun
+      material: ENDER_LUMP_3
+    7:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE
+    8:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+    9:
+      material_type: slimefun
+      material: ANCIENT_RUNE_LIGHTNING 
+
+
+RPG_ZOMBIE_4:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#084cfb&l不&#5a5ee9&l死&#ab71d8&l尸&#fd83c6&l王'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&c&l无法想象的强大'
+      - '&e╚════════════════════════════════════╝'
+    material_type: saveditem
+    material: RPG_4
+    amount: 1
+  placeable: true
+  recipe_type: JP_SWSYS
+  recipe:
+    1:
+      material_type: slimefun
+      material: ANCIENT_RUNE_AIR
+    2:
+      material_type: slimefun
+      material: ANCIENT_RUNE_VILLAGERS
+    3:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE 
+    4:
+      material_type: slimefun
+      material: ESSENCE_OF_AFTERLIFE
+    5:
+      material_type: slimefun
+      material: JP_JH_3
+    6:
+      material_type: slimefun
+      material: ESSENCE_OF_AFTERLIFE
+    7:
+      material_type: slimefun
+      material: ANCIENT_RUNE_LIGHTNING
+    8:
+      material_type: slimefun
+      material: ANCIENT_RUNE_ENCHANTMENT
+    9:
+      material_type: slimefun
+      material: ANCIENT_RUNE_SOULBOUND 
+
+RPG_ZOMBIE_5:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '测试boss'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&c&l无法想象的强大'
+      - '&e╚════════════════════════════════════╝'
+    material_type: saveditem
+    material: RPG_5
+    amount: 1
+  placeable: true
+  recipe_type: NULL
+  recipe:     
+          
+#提取材料
+
+JP_SHEEP_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C羊基因'
+    lore:
+    - '&#fb3d16&l羊的DNA片段'
+    material_type: skull_hash
+    material: 30f50394c6d7dbc03ea59fdf504020dc5d6548f9d3bc9dcac896bb5ca08587a
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: MUTTON
+       5:
+          material_type: slimefun
+          material: JP_WZTQY
+
+JP_COW_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C牛基因'
+    lore:
+    - '&#fb3d16&l牛的DNA片段'
+    material_type: skull_hash
+    material: be8456155142cbe4e61353ffbaff304d3d9c4bc9247fc27b92e33e6e26067edd
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: BEEF
+       5:
+          material_type: slimefun
+          material: JP_WZTQY
+
+JP_PIG_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C猪基因'
+    lore:
+    - '&#fb3d16&l猪的DNA片段'
+    material_type: skull_hash
+    material: bee8514892f3d78a32e8456fcbb8c6081e21b246d82f398bd969fec19d3c27b3
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: PORKCHOP
+       5:
+          material_type: slimefun
+          material: JP_WZTQY
+
+JP_CHICKEN_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C鸡基因'
+    lore:
+    - '&#fb3d16&l鸡的DNA片段'
+    material_type: skull_hash
+    material: ca3582ce4889333dad329e4e24372a03a5daa2c34280c56256af5283edb043f8
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: CHICKEN
+       5:
+          material_type: slimefun
+          material: JP_WZTQY
+
+JP_RABBIT_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C兔基因'
+    lore:
+    - '&#fb3d16&l兔的DNA片段'
+    material_type: skull_hash
+    material: 8652c62a166203db8e1edee6039b4962224690b1e25b1fe00ca2338c2bf5fb78
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: RABBIT
+       5:
+          material_type: slimefun
+          material: JP_WZTQY  
+
+JP_COD_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C鳕鱼基因'
+    lore:
+    - '&#fb3d16&l鳕鱼的DNA片段'
+    material_type: skull_hash
+    material: 7892d7dd6aadf35f86da27fb63da4edda211df96d2829f691462a4fb1cab0
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: COD
+       5:
+          material_type: slimefun
+          material: JP_WZTQY    
+
+JP_SALMON_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C鲑鱼基因'
+    lore:
+    - '&#fb3d16&l鲑鱼的DNA片段'
+    material_type: skull_hash
+    material: 8aeb21a25e46806ce8537fbd6668281cf176ceafe95af90e94a5fd84924878
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: SALMON
+       5:
+          material_type: slimefun
+          material: JP_WZTQY  
+
+JP_TROPICAL_FISH_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C热带鱼基因'
+    lore:
+    - '&#fb3d16&l热带鱼的DNA片段'
+    material_type: skull_hash
+    material: 36389acd7c8280d2c8085e6a6a91e182465347cc898db8c2d9bb148e0271c3e5
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: TROPICAL_FISH
+       5:
+          material_type: slimefun
+          material: JP_WZTQY 
+
+JP_PUFFERFISH_GENOME:
+  lateInit: false
+  item_group: jp_cl
+  item:
+    name: '&l&#CEFB0C河豚基因'
+    lore:
+    - '&#fb3d16&l河豚的DNA片段'
+    material_type: skull_hash
+    material: 6df8c316962949ba3be445c94ebf714108252d46459b66110f4bc14e0e1b59dc
+    amount: 1
+  placeable: false
+  recipe_type: JP_WZTQY
+  recipe:
+       2:
+          material_type: mc
+          material: PUFFERFISH
+       5:
+          material_type: slimefun
+          material: JP_WZTQY 
+
+#道具
+JP_FENKA:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#FB91BF&l粉卡'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FBF13C&l右键使用后获取粉,一次用4个'
+      - '&e║&#FBF13C&l权重百分1,64个圆石制作64张卡'
+      - '&e║&#fb3d16&l铁粉 : 0.05 '
+      - '&e║&#fb3d16&l金粉 : 0.05 '
+      - '&e║&#fb3d16&l锡粉 : 0.05 '
+      - '&e║&#fb3d16&l铜粉 : 0.025'
+      - '&e║&#fb3d16&l银粉 : 0.025'
+      - '&e║&#fb3d16&l铅粉 : 0.025'
+      - '&e║&#fb3d16&l铝粉 : 0.05 '
+      - '&e║&#fb3d16&l锌粉 : 0.025'
+      - '&e║&#fb3d16&l镁粉 : 0.025'
+      - '&e║&#fb3d16&l寂寞 : 0.7  '
+      - '&e╚════════════════════════════════════╝'
+    material: PAPER
+    amount: 1
+  placeable: false
+  script: 道具脚本/粉卡
+  recipe_type: JP_KJJQ
+  recipe:
+    1:
+      material_type: mc
+      material: COBBLESTONE
+      amount: 64
+
+JP_DLKLJ:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#f0e9fb&l凋&#dfecfc&l零&#cfeefc&l骷&#bef1fd&l髅&#adf3fd&l剑'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║§#F0FB5A§l秒杀凋零骷髅'
+      - '&e║§#FB144E§l百分百掉落头颅'
+      - '&e║§9§l剩余次数 : 10'
+      - '&e╚════════════════════════════════════╝'
+    material: IRON_SWORD
+    amount: 1
+  placeable: false
+  script: 武器脚本/凋零骷髅剑
+  recipe_type: JP_GJZZT
+  recipe:
+    2:
+      material_type: slimefun
+      material: SWORD_OF_BEHEADING   
+
+JP_JYSNQ250:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&f&l经验势能器250级'
+    lore:
+      - '&e╔═══════════════════════════════════════╗'
+      - '&e║&#F9FB39&l每次使用+5级 '
+      - '&e║&#ADF3FD&l上限250级'
+      - '&e╚═══════════════════════════════════════╝'
+    material: EXPERIENCE_BOTTLE
+    amount: 1
+  placeable: false
+  script: 道具脚本/经验势能器250级版
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    2:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    3:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    4:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    5:
+      material_type: slimefun
+      material: JP_JH_3
+      amount: 1
+    6:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    7:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    8:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1
+    9:
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+      amount: 1      
+
+JP_XXDF:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#f9fb39&l吸星大法'
+    lore:
+      - '&e╔═══════════════════════════════════════╗'
+      - '&e║&#85FBBA&l右键吸取周围所有实体'
+      - '&e║&#ADF3FD&l范围 :&#FB195F&l 10x10'
+      - '&e╚═══════════════════════════════════════╝'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/功法-吸星大法
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: JP_NULL 
+    5:
+      material_type: slimefun
+      material: JP_GOD_CRAFTING_TABLE     
+
+JP_LANQIU:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&f&l篮球'
+    lore:
+      - '&e╔═══════════════════════════════════════╗'
+      - '&e║&#85FBBA&l唱 跳 RAP MUSIC'
+      - '&e║&#ADF3FD&l范围 :&#FB195F&l 3X3'
+      - '&e║&#3CFB9D&l让哥哥们快速长大'
+      - '&e║§9&l冷却剩余时间 : 2坤半'
+      - '&e╚═══════════════════════════════════════╝'
+    material_type: skull_hash
+    material: 8d2058db621cbc31642c00b4c0ec55a8d3bdae1fef172c1a5d5c7506e088d351
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/篮球
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME
+    2:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME
+    3:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME
+    4:
+      material_type: mc
+      material: WHEAT
+    5:
+      material_type: slimefun
+      material: JP_JH_1
+    6:
+      material_type: mc
+      material: WHEAT
+    7:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME
+    8:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME
+    9:
+      material_type: slimefun
+      material: JP_CHICKEN_GENOME        
+
+
+JP_FWQ:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#fb82e2&l&m服&#fcb4be&l&m务&#fde69a&l&m器'
+    lore:
+      - '&e╔══════════════════════════════════╗'
+      - '&e║&#fcb4be&l           Boom!'
+      - '&e╚══════════════════════════════════╝'
+    material: POTATO
+    amount: 1
+  placeable: false
+  recipe_type: 'JP_KJJQ'
+  script: 道具脚本/服务器
+  recipe:
+    1:
+      material_type: mc
+      material: POTATO  
+    2:
+      material_type: mc
+      material: POTATO 
+    3:
+      material_type: mc
+      material: POTATO  
+    4:
+      material_type: mc
+      material: POTATO 
+    5:
+      material_type: slimefun
+      material: BASIC_CIRCUIT_BOARD   
+    6:
+      material_type: mc
+      material: POTATO         
+    7:
+      material_type: mc
+      material: POTATO 
+    8:
+      material_type: mc
+      material: POTATO         
+    9:
+      material_type: mc
+      material: POTATO     
+
+JP_HKS_PICKAXE:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&l&#da2eda海&#bf47bb克&#a45f9c斯&#8a787c矿&#6f905d工&#54a93e镐'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#1db2a9&l使用镐子挖掘有概率掉落粘液锭与道具!'
+      - '&e╚════════════════════════════════════╝'
+    material: DIAMOND_PICKAXE
+    amount: 1
+  placeable: false
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  script: 工具脚本/海克斯镐
+  recipe:
+    2:
+      material_type: slimefun
+      material: EXPLOSIVE_PICKAXE 
+
+JP_SANSHEGONG:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&l&#651299散&#81187f射&#9c1f64弓'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#651299&l万箭齐发(其实也就20)!'
+      - '&e╚════════════════════════════════════╝'
+    material: BOW
+    amount: 1
+  placeable: true
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  recipe:
+    2:
+      material_type: slimefun
+      material: EXPLOSIVE_BOW   
+
+
+JP_TARGETBOW:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#651299&l追&#81197f&l踪&#9c1f64&l弓'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#651299&l追踪弓'
+      - '&e╚════════════════════════════════════╝'
+    material: BOW
+    amount: 1
+  placeable: true
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  recipe:
+    2:
+      material_type: slimefun
+      material: JP_NULL    
+
+JP_HKS_DIAMOND_SWORD:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&l&#5fc940海&#459165克&#2c598b斯&#1221b0剑'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#651299&l使用剑击杀生物有概率掉落粘液锭与道具!'
+      - '&e║&#161718还没想好怎么写'
+      - '&e╚════════════════════════════════════╝'
+    material: DIAMOND_SWORD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: SOULBOUND_SWORD
+  script: 武器脚本/海克斯剑               
+
+JP_YXJ:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&l&#ed4014饮&#893e61血&#243cad剑"
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&l&4被动: &l&#893e61生命偷取'
+      - '&e║&l&#893e61① 将10％的伤害转为血量'
+      - '&e╚════════════════════════════════════╝'
+    material: DIAMOND_SWORD
+    amount: 1
+  placeable: false
+  recipe_type: 'JP_GOD_CRAFTING_TABLE'
+  script: 武器脚本/饮血剑
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_WGKJ
+    2:
+      material_type: slimefun
+      material: JP_JH_4
+    3:
+      material_type: slimefun
+      material: JP_WGKJ
+    4:
+      material_type: slimefun
+      material: JP_WGKJ
+    5:
+      material_type: slimefun
+      material: JP_JH_3
+    6:
+      material_type: slimefun
+      material: JP_WGKJ
+    7:
+      material_type: slimefun
+      material: JP_WGKJ
+    8:
+      material_type: slimefun
+      material: INFINITE_INGOT
+    9:
+      material_type: slimefun
+      material: JP_WGKJ           
+
+JP_JHZR:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&l&#ed4014净&#aa3f47魂&#673d7a之&#243cad刃"
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&l&4被动:&l&#893e61破法'
+      - '&e║&#893e61① 每次攻击将燃烧目标0.1%的等级(最低1)'
+      - '&e║&#893e61② 每次攻击都会使目标造成1%的等级伤害'
+      - '&e╚════════════════════════════════════╝'
+    material: DIAMOND_SWORD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  script: 武器脚本/净魂之刃
+  recipe:
+    1:
+      material_type: slimefun
+      material: JP_WGKJ
+    2:
+      material_type: slimefun
+      material: JP_JH_4
+    3:
+      material_type: slimefun
+      material: JP_WGKJ
+    4:
+      material_type: slimefun
+      material: JP_WGKJ
+    5:
+      material_type: slimefun
+      material: JP_JH_3
+    6:
+      material_type: slimefun
+      material: JP_WGKJ
+    7:
+      material_type: slimefun
+      material: JP_WGKJ
+    8:
+      material_type: slimefun
+      material: JP_YXJ
+    9:
+      material_type: slimefun
+      material: JP_WGKJ
+
+JP_QHFMS:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#2dfb89&lm&#47df8b&lm&#61c38d&lm&#7ba68e&lj&#958a90&lj&#af6e92&lk&#c95294&lx&#e33595&l之&#fd1997&l力'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FD1997&l右键强化附魔(副手持需要强化的物品)'
+      - '&e║&#FD1997&l每10级概率-0.01,强化失败装备销毁'
+      - '&e╚════════════════════════════════════╝'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/强化附魔书
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_WJZFK
+
+JP_倍数版:
+  lateInit: false
+  item_group: jp_zwf_44
+  item:
+    name: '&#2dfb89&l这是老J测试的附魔书'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FD1997&l右键强化附魔(副手持需要强化的物品)100倍'
+      - '&e║&#FD1997&l每100000级概率-0.000001,强化失败装备销毁'
+      - '&e╚════════════════════════════════════╝'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/强化附魔书倍数版本
+  recipe_type: NULL
+        
+
+JP_SHZFS:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#4b23fb&l伤&#7435fc&l害&#9d47fc&l增&#c658fd&l幅&#ef6afd&l书'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FD1997&l右键增幅伤害(副手持下界合金剑)'
+      - '&e║&#FD1997&l每10点伤害概率-0.01,强化失败装备销毁'
+      - '&e╚════════════════════════════════════╝'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/伤害增幅书
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_WJZFK
+
+JP_HJZFS:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#4b23fb&l护&#7435fc&l甲&#9d47fc&l增&#c658fd&l幅&#ef6afd&l书'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FD1997&l右键增幅护甲'
+      - '&e║&#FD1997&l每10点护甲概率-0.01,强化失败装备销毁'
+      - '&e╚════════════════════════════════════╝'
+      - '§4§lShift + 右键切换模式 : §2§l 头盔'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/护甲增幅书
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_WJZFK       
+
+JP_KJRXZFS:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#4b23fb&l盔甲&#662ffb&l韧性&#823bfc&l增幅&#9d47fc&l书&#b852fc&l&#d45efd&l&#ef6afd'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FD1997&l右键增幅盔甲韧性'
+      - '&e║&#FD1997&l每1点护甲韧性概率-0.2,强化失败装备销毁'
+      - '&e╚════════════════════════════════════╝'
+      - '§4§lShift + 右键切换模式 : §2§l 头盔'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/盔甲韧性增幅书
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_WJZFK
+
+JP_SMZFS:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#4b23fb&l生&#7435fc&l命&#9d47fc&l增&#c658fd&l幅&#ef6afd&l书'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#FD1997&l右键增幅生命'  
+      - '&e║&#FD1997&l每1点生命概率-0.05,强化失败装备销毁' 
+      - '&e╚════════════════════════════════════╝'
+      - '§4§lShift + 右键切换模式 : §2§l 头盔'
+    material: PAPER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/生命增幅书
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    5:
+      material_type: slimefun
+      material: JP_WJZFK 
+
+JP_PLAYPLAN:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#c22afb&l斐&#de52fc&l济&#f979fd&l北'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#c22afb来一场男人间的比拼吧' 
+      - '&e║&#c22afb你已经手冲  次' 
+      - '&e╚════════════════════════════════════╝'
+    material: DISPENSER
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/斐济北
+  recipe_type: JP_GJZZT
+  recipe:
+    1:
+      material_type: slimefun
+      material: RUBBER
+    2:
+      material_type: slimefun
+      material: RUBBER
+    3:
+      material_type: slimefun
+      material: RUBBER
+    4:
+      material_type: slimefun
+      material: RUBBER        
+    6:
+      material_type: slimefun
+      material: RUBBER 
+    7:
+      material_type: slimefun
+      material: RUBBER 
+    8:
+      material_type: slimefun
+      material: RUBBER 
+    9:
+      material_type: slimefun
+      material: RUBBER        
+
+JP_ZBYG:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#c22afb&l自爆&#de52fc&l幽&#f979fd&l鬼'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║§#F0FB5A§l遥控小飞机'
+      - '&e║§#FB144E§l碰到敌人就爆炸'
+      - '&e║§9§l剩余次数 : 10'
+      - '&e╚════════════════════════════════════╝'
+    material: TRIPWIRE_HOOK
+    amount: 1
+  placeable: false
+  script: 武器脚本/自爆幽鬼
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: TNT
+    2:
+      material_type: mc
+      material: TNT
+    3:
+      material_type: mc
+      material: TNT
+    4:
+      material_type: mc
+      material: TNT
+    5:
+      material_type: slimefun
+      material: ANCIENT_RUNE_FIRE           
+    6:
+      material_type: mc
+      material: TNT 
+    7:
+      material_type: mc
+      material: TNT 
+    8:
+      material_type: mc
+      material: TNT 
+    9:
+      material_type: mc
+      material: TNT         
+
+JP_WJZFK:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#fb165e&l无&#fc4a51&l尽&#fc7e45&l增&#fdb138&l幅&#fde52b&l卡'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#fb165e&l增幅书获取唯一途径'  
+      - '&e║&#fde52b&l嘿嘿' 
+      - '&e╚════════════════════════════════════╝'
+    material: MUSIC_DISC_5
+    amount: 1
+    glow: true
+  placeable: false
+  script: 道具脚本/无尽增幅卡
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: INFINITE_INGOT
+      amount: 64
+
+JP_村民棒:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&#82fbe4&l村&#c0c2e5&l民&#fd88e5&l棒"
+    lore: 
+      - '&e╔════════════════════════════════════╗'
+      - '&e║ &l&c右键召唤村民'
+      - '&e╚════════════════════════════════════╝'
+    material_type: mc
+    material: LIGHTNING_ROD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GJZZT
+  script: 道具脚本/村民棒 
+  recipe:
+       1:
+          material_type: mc
+          material: EMERALD_BLOCK
+       2:
+          material_type: mc
+          material: EMERALD_BLOCK
+       3:
+          material_type: mc
+          material: EMERALD_BLOCK
+       4:
+          material_type: mc
+          material: EMERALD_BLOCK
+       5:
+          material_type: mc
+          material: DIAMOND_BLOCK
+       6:
+          material_type: mc
+          material: EMERALD_BLOCK
+       7:
+          material_type: mc
+          material: EMERALD_BLOCK
+       8:
+          material_type: mc
+          material: EMERALD_BLOCK
+       9:
+          material_type: mc
+          material: EMERALD_BLOCK               
+                 
+
+JP_黑棋:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&e&l五子棋-&8&l黑棋"
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║ &#fde52b&l右键放置,可远距离放置'
+      - '&e║ &#fde52b&l可无限放置'
+      - '&e╚════════════════════════════════════╝'
+    material_type: skull_hash
+    material: 55029257465c5eabfd3d1940971e3fd6e761ea3b3149f6d91c8c676f0a5f883
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: 道具脚本/黑棋 
+  recipe:
+       1:
+          material_type: mc
+          material: POLISHED_BLACKSTONE_BUTTON         
+
+JP_白棋:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&e&l五子棋-&f&l白棋"
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║ &#fde52b&l右键放置,可远距离放置'
+      - '&e║ &#fde52b&l可无限放置'
+      - '&e╚════════════════════════════════════╝'
+    material_type: skull_hash
+    material: 36b03b40158bb6e98b20766b1d46d9182c15a1a4cf439e13a7670b87d12757b
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  script: 道具脚本/白棋 
+  recipe:
+       1:
+          material_type: mc
+          material: ACACIA_BUTTON    
+
+JP_手电钻:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#ab4061&l手电钻'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#c22afb右键即可开始开采原油' 
+      - '&e║&#c22afb开采深度:  米' 
+      - '&e╚════════════════════════════════════╝'
+    material: HOPPER
+    amount: 1
+  placeable: false
+  script: 工具脚本/手电钻
+  recipe_type: JP_GJZZT
+  recipe:
+       2:
+          material_type: slimefun
+          material: GPS_GEO_SCANNER 
+          amount: 1 
+       4:
+          material_type: mc
+          material: PISTON 
+          amount: 1
+       5:
+          material_type: slimefun
+          material: OIL_PUMP 
+          amount: 1    
+       6:
+          material_type: mc
+          material: PISTON 
+          amount: 1         
+       7:
+          material_type: mc
+          material: HOPPER
+          amount: 1  
+       8:
+          material_type: mc
+          material: HOPPER 
+          amount: 1         
+       9:
+          material_type: mc
+          material: HOPPER 
+          amount: 1  
+
+JP_手电钻+1:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#ab4061&l手电钻+1'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#c22afb右键即可开始开采原油' 
+      - '&e║&#c22afb开采深度:  米' 
+      - '&e╚════════════════════════════════════╝'
+    material: HOPPER
+    amount: 1
+  placeable: false
+  script: 工具脚本/手电钻
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+       1:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1
+       2:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1     
+       3:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1  
+       4:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1
+       5:
+          material_type: slimefun
+          material: JP_手电钻
+          amount: 1     
+       6:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1
+       7:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1
+       8:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1     
+       9:
+          material_type: slimefun
+          material: JP_JH_1
+          amount: 1             
+
+JP_手电钻+2:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#ab4061&l手电钻+2'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#c22afb右键即可开始开采原油' 
+      - '&e║&#c22afb开采深度:  米' 
+      - '&e╚════════════════════════════════════╝'
+    material: HOPPER
+    amount: 1
+  placeable: false
+  script: 工具脚本/手电钻
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+       2:
+          material_type: slimefun
+          material: JP_JH_2
+          amount: 1       
+       5:
+          material_type: slimefun
+          material: JP_手电钻+1
+          amount: 1 
+
+JP_手电钻+3:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: '&#ab4061&l手电钻+3'
+    lore:
+      - '&e╔════════════════════════════════════╗'
+      - '&e║&#c22afb右键即可开始开采原油' 
+      - '&e║&#c22afb开采深度:  米' 
+      - '&e╚════════════════════════════════════╝'
+    material: HOPPER
+    amount: 1
+  placeable: false
+  script: 工具脚本/手电钻
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+       2:
+          material_type: slimefun
+          material: JP_JH_3
+          amount: 1       
+       5:
+          material_type: slimefun
+          material: JP_手电钻+2
+          amount: 1 
+
+JP_空岛镐:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "§#21CEE7§l空岛镐"
+    lore:
+      - '§4§lShift + 右键切换模式 : §2§l 钻石'
+      - '&#c22afb存储数量: §2§l0'
+    material: DIAMOND_PICKAXE
+    amount: 1
+  placeable: false
+  recipe_type: JP_GJZZT
+  script: 工具脚本/空岛镐
+  recipe:
+    1:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1       
+    2:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1
+    3:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1       
+    4:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1
+    5:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1       
+    6:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1
+    7:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1       
+    8:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1  
+    9:
+        material_type: mc
+        material: DIAMOND_PICKAXE
+        amount: 1        
+
+JP_复制权杖:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&#e1196c&l复&#b4136d&l制&#870d6d&l权&#5a076e&l杖"
+    lore:
+      - '&#42b9fb&l右&#54b1fb&l键&#66aafb&l复&#77a2fc&l制&#899bfc&l掉&#9b93fc&l落&#ad8cfc&l物&#be84fd&l及&#d07dfd&l生&#e275fd&l物'
+    material: DIAMOND_PICKAXE
+    amount: 1
+  placeable: false
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  script: 道具脚本/复制权杖
+
+JP_ItemFrame_Tool:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&#fb340c&l展&#ce5c13&l示&#a18419&l框&#73ad20&l修&#46d526&l改&#19fd2d&l棒"
+    lore:
+      - '§4§lShift + 右键切换模式 : §2§l 隐形'
+    material: ECHO_SHARD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GJZZT
+  script: 工具脚本/展示框工具
+  recipe:      
+    2:
+        material_type: slimefun
+        material: HOLOGRAM_PROJECTOR
+        amount: 1
+    4:
+        material_type: slimefun
+        material: ADVANCED_CIRCUIT_BOARD
+        amount: 1       
+    6:
+        material_type: slimefun
+        material: ADVANCED_CIRCUIT_BOARD
+        amount: 1
+    5:
+        material_type: slimefun
+        material: SCROLL_OF_DIMENSIONAL_TELEPOSITION
+        amount: 1
+
+JP_ID棒:
+  lateInit: false
+  item_group: jp_prop
+  item:
+    name: "&#ff0242&lI&#ff0a3a&lD&#ff1131&l棒"
+    lore:
+     - "§4§lShift + 右键输入物品ID :"
+     - "§4§lShift + 右键输入物品数量 :"
+    material: ECHO_SHARD
+    amount: 1
+  placeable: false
+  recipe_type: JP_GOD_CRAFTING_TABLE
+  script: 工具脚本/ID棒              

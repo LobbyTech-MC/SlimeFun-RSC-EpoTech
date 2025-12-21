@@ -1,0 +1,115 @@
+一级核心:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"1","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FFFFFF","bold":true},{"text":"级","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FEE6B9","bold":true},{"text":"核","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FECD73","bold":true},{"text":"心","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FDB42D","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"击杀1级怪物掉落","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+      PublicBukkitValues: |-
+        {
+            "slimefun:slimefun_item": "JP_JH_1"
+        }
+      custom: H4sIAAAAAAAA/7WSv2/TQBTHryiI1OWvOJYOQXLsNlUiMdDYVR3FNm0SOzZi8I9L/OPOjs421KkqVWJAGaDtxAISG4KZAYFQ/xpSdkYWrqiqMqBM7W3vve97n/fVPQ4ADtzzw2yCnbIKKppD0MrvQ4gOcurA1tND6KU4pbAFH+z8e7AGi8RHFIcJ8mFr5OAM1WDO9ExTZ1U3xSyf04Kls5yGMcoDmhbj4FqcuqMi85x8oT/MHRx6V+FRbZEqy43t5lLqxbePt8FtS1viUu78w9db4ErbG4K0lPvz/OXNcJ9dj4RHq6DSTSmqAgBWwLv/HQBlc5au9er7/P1xnf3G/PjzxezT/M3s1+mPm9+UHSzXiwuM9RcJolc3C7h272GbGeiG7hq4o/jMR+X1zsnb9XNhPHPOxtaf++us8QlNJ4jmIcpWQfVyZEFRxl2aroK7hoMLBL6gssPbw4D3hx3slUqDxf0ej3UlmmwpiVG6baWhEFbffdzols0F7WbumJvYEjuBnewVLjH4rriP0e5+3SOD51okT7XIKzXJ4zVT3bCmOLCIKmqmFtuRUqqSQVSixaq5N1WFgWARG9tE5tW+QfR+XLfIQNSiuFSj+ECNZEE3jUjvdZqjIf+IOQB/AYbr+3HMAwAA
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 8d468f97-28bf-3267-8961-916759fb0c28
+        name: CS-CoreLib
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjEzNjcyNDc0NWM4YzlhYmM3NWNkZjIyMDVmMmNkMWQzM2U2YmZlZmE0MTVmOTk1YmU3NjkyMjkxMjE2OWVjOSJ9fX0=
+二级核心:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#FDB42D","bold":true},{"text":"级","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#CD8364","bold":true},{"text":"晶","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#9D529C","bold":true},{"text":"核","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#6D21D3","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"击杀2级怪物掉落","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+      PublicBukkitValues: |-
+        {
+            "slimefun:slimefun_item": "JP_JH_2"
+        }
+      custom: H4sIAAAAAAAA/62Sv2/TUBDHX1EQqVnZK5mFIUiOf0GCOlC7OLZiGzfBjoMY/OOlcfNsR892U7uq1A11QaxIVGJDwISEUAXiP2FgIWXnH+BFqqoMKFPGu/vefe6rOwoACtwKo2yKvLIOaoYXw42/xzQ8yrFHt58f00GKUky36btP5B2elekGXSQhxChKYEi3Rx7KYIPOiZ5oWFL1U0TyOS5IOstxNIH5GKfF/vhanPqjIgu8fKk/yj0UBVfhSWOJKskPOZFfSb389n793JYssC1pJXf+5uv6uaLMNmVuNffdxXq4L65H0ieboNZNMawDADbA2/89ACZzVq31++X3+fkpS64xP/14efZh/ursz+sf69+UPCzVmxQImbME4qufBZTUuy8RA93Ivw1uqCHxUfvc+WWfP9q+80ndutj6qdwjjU9xOoU4j2C2CeqLkQWGGbUwXQc3bQ8VEHyBpcYMB2MmHGgoKFWRxP0eg0z1YPpATezSl1RRjUm981jslq0lrZB7joBcThsPE6vwY5vpcnsIdvaaQfzs0HUswezvVm7fZXVHr0zFbQ4PgpmuqLwuB4Kp7PJuZfGGY1V6pU2Mar8yZDsyKpfTHWvm9lVmoTEUtdTlieDGLjPsaa3RgNkmDsA/2x2Zy8wDAAA=
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: b148e056-9d3b-3d14-ab49-1fb81fdc4728
+        name: CS-CoreLib
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ5OTEzYTY2MWMzOGY1ZjcwMGI4MDc5OGE4YzQ4NWQzMzJkNzgzNDViNzY3MWQwYTI0OGE4NGIyMDk5YmY0ZSJ9fX0=
+三级核心:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"3","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#D32A91","bold":true},{"text":"级","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#D35971","bold":true},{"text":"晶","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#D38850","bold":true},{"text":"核","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#D3B730","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"击杀鬼王掉落","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+      PublicBukkitValues: |-
+        {
+            "slimefun:slimefun_item": "JP_JH_3"
+        }
+      custom: H4sIAAAAAAAA/+NiYOBiYE/JLC7ISazkYGDxS8xNZfxcrZRaUVKUqGQVXa2UnJ+TX6RkpaTsYmzkaGmopKNUmpeSWpSTmZeaomSVlphTnKqjVAJUD1RjDJRNys8BipcUlQKFi0uKMrNTSzKK8kvTM+CK85PSSouTE0uQ9GeWJOZkJkO5tTootppamuO39fmu5bSw18LC1ACvvc9mbqOFvU7mxgTsXbCDOvbGwo1UquVkYPHJL0rlYGBgYGSYgS0BFAHNweesp+27n81teLlmz/O+7md9nS8m7KW+K4GJlSs4uzQnx788L7UIml4ZuJyDdZ2BjvfJTOJmYPJMAfqBJa1xLfeG4zaTV26YvCB/zYTTQI0BRfkFqUUlmanFnAwcICNLi1KLuUAe5mBgDUvMKU1l2JJa6WUQFZFhkBLhlZNc6WkG5IcEG+T4e2YVmHvmhVUmOXuaeeYC5T0czXwqLZHUmpYkhpvmRBp7ZUTlBZYm5YYZ+BgH5aR6BBkm54aWRbkkV0RmZRv6uYea+Ie75US5uBr65Uaa+rpHZUTl+uX45QZl+VUlm/i7uwHpqEy/rEAjP6B4pJFfhq+Rq0FUVlBOZJVbjp9LZFVUuKepb0hQhm+wl2VahIEt0AcMAHXV31bIAwAA
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 6681ad0b-b0c7-3c93-a9b0-93a06fac90cb
+        name: CS-CoreLib
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDcxYjk1NGU4OWFlZDE1NmY5MGZhZmNlNmRjNzc4OGFjNzZiNjQ2NmNlY2NhM2E0ZjRlYzFlNDYzZWI5MTRhMSJ9fX0=
+四级核心:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"4","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#D3B730","bold":true},{"text":"级","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#A0CE64","bold":true},{"text":"晶","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#6DE698","bold":true},{"text":"核","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#3AFDCC","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"击杀4级怪物掉落","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+      PublicBukkitValues: |-
+        {
+            "slimefun:slimefun_item": "JP_JH_4"
+        }
+      custom: H4sIAAAAAAAA/62STW/TQBCGtyiAa+78gOWaSg5OXBIJocROWlvZGJo0iYNA8semtrO2o7VNa1eRChfUC+KKBIgTCA6cEEJ8/Bxc7vwBtlJV5YByymk1M+/MM692eAB4cN3x4jkxMw6UemaAN/4eQ3yUUBM2Hh5DOyIRhQ14SxFb26IAyzANHUyJF2IHNqYmiXEZJkzPNFVWtSLC8glNWTpOqDfDiUuj9MC9FEfWNI1tM1nq9xKTePZFuCgvUZuC3JaqK6ln3z+snyspbal+ZyW3ePV1/Vyx2VFkeTX33bf1cB9djoSLTVDqRhRzAIAN8Pp/B0DZnFVr/X7+o3hzUmW/UZx8Ojv9WLw4/fPy1/o3ZQfL92cpIfphiOnFzQJe7m/JzEDXs26AK6rDfJSuPVuQzz/vFW9bNx9zpafvWeN9Gs0xTTwcbwLufGRKccyfm+bA1aFJUgy+4EwTJmNXcMYasTNVYvGgLxBd9efbajjMLFmV1IDVd5tSN6svaWuJOaoRQ9TcSfggtYKh0BX3CN7dq9jB/pOJgkRj0K7oA6Pau60RlLM3d2a9nf3c8JuViW8cGYHK6u5MV1CORkjUB+1DfafjG3nPR6NOoCutAPlqBeUHNRRoHvK0+nQs3GUOwD9iPR2/zAMAAA==
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 06827d6c-aebc-3fe6-9e42-165e080481a6
+        name: CS-CoreLib
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM3YTE1OTY4N2JlMzY4NzdkNGUzYjA1ZjYxYmI1OThkODMzMWM3OTEwOGFjYzNjMWFmODBmMjI1Mzg5MmJiMiJ9fX0=
+
+五级核心:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"text":"","extra":[{"text":"5级晶核","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"击杀5级怪物掉落","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":true}]}'
+      PublicBukkitValues: |-
+        {
+            "slimefun:slimefun_item": "JP_JH_5"
+        }
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 801a5d90-0957-32e7-a410-7bd1643cd5d9
+        name: CS-CoreLib
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFjODA0MjUyN2Y4MWM4ZTI5M2UyODEwMTEzNDg5ZjQzOTRjYzZlZmUxNWQxYWZhYzQzMTU3MWM3M2I2MmRjNCJ9fX0=

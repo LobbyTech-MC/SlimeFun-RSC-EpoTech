@@ -1,0 +1,36 @@
+影袭:
+  Conditions:
+  - hasTag{tag=技能释放标签} false 
+  Cooldown: 6
+  Skills:
+  - addtag{tag=技能释放标签} @self
+  - setai{ai=false} @self
+  - potion{type=INVISIBILITY;duration=2000} @self
+  - particlesphere{radius=1.5;particle=spell_witch;amount=30;color=#1a0033;yoffset=0.5} @self
+  - delay 60
+  - particlesphere{radius=1.2;particle=smoke;amount=20;color=#000000;yoffset=0.5} @self
+  - teleport @RandomThreatTarget
+  - particlesphere{radius=1.8;particle=spell_witch;amount=40;color=#9d00ff;yoffset=0.5} @self
+  - potionclear @self
+  - delay 40
+  - particleline{particle=redstone;amount=15;speed=0.1;color=#9d00ff} @eir{radius=5}
+  - basedamage{Multiplier=1.5} @eir{radius=5}
+  - setai{ai=true} @self
+  - removetag{tag=技能释放标签} @self 
+
+凋零连珠加强版:
+  Conditions:
+  - hasTag{tag=技能释放标签} false 
+  Cooldown: 6
+  Skills:
+  - addtag{tag=技能释放标签} @self
+  - projectile{maxduration=60;interval=20;onendskill=[
+    - removetag{tag=技能释放标签} @self 
+    ];ontickskill=[
+    - projectile{Repeat=3;repeatinterval=1;velocity=10;hitnonplayers=true;ontickskill=[
+      - particlesphere{radius=0.2;particle=redstone;amount=15;color=#9d00ff}
+    ];onhitskill=[
+      - baseDamage{multiplier=1.5}
+    ]} @forward{rotate=<random.float.30to-30>;useeyelocation=true}
+    ]} @forward
+  

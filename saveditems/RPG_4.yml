@@ -1,9 +1,0 @@
-item:
-  ==: org.bukkit.inventory.ItemStack
-  v: 3465
-  type: ZOMBIE_SPAWN_EGG
-  meta:
-    ==: ItemMeta
-    meta-type: SPAWN_EGG
-    display-name: '[{"text":"僵尸之王","italic":false,"color":"red","bold":true}]'
-    internal: H4sIAAAAAAAA/22Sz2vUQBTHX5rdbhJcaUXRgwfJxYuIsLde7DatWpBS8MdFZJkkb5Nh58cy82JbS0HwJIJHL/UuevfiyaP/SN1/w0maXbfFgYGZN5/3fd95MxFABOGOIk5Hz1kRwArPYfWtlinHEKKhkdrsEkobAUDHzXPias6Z1CoflSgkkg/dRFeK3LkHIfSHGfE3uDMeY0ZNpudB/1mpD/aZIZ4JtJ4PwXZlGHGtAO6u+bCym9egD+FQTgUfczRu73vQG9ZmFNXKHefRBk2ZK2enp7OfX/+8+z778M2D9aSypOUek/iSW54K9EJYa/xvGz1NSqYytN32FheG85Ywtc+zyYvpU63Jme09FvqAq8LZWX2CTFAJsHcngOhfFXjw6jgmPKR4Iz57/2P26WN8L8600MYFjlA4ARdItcjjDTIVnryu+0lkeFoRNl3pBdBppPoFKjQ8u89qv13obDGLW7+bdp8TNy8QI9JVUSq09n/sjQVLxLLJKGeSFdiSyecl8tYlcqJ0NkndqoUfDgaDBXz9EmyniHkLbv5aUr09BxdyI4OWW6qfYJ6wuZRwbZ4g2aH7UXW7W+zRl5qDv7vOYSKmAgAA
