@@ -32,13 +32,13 @@ JP_Multiplication_Generator:
   recipe:
     1:
       material_type: slimefun
-      material: GENERATOR_COR
+      material: GENERATOR_CORE
     2:
       material_type: slimefun
       material: BLISTERING_INGOT_2
     3:
       material_type: slimefun
-      material: GENERATOR_COR
+      material: GENERATOR_CORE
     4:
       material_type: slimefun
       material: BLISTERING_INGOT_2
@@ -50,13 +50,13 @@ JP_Multiplication_Generator:
       material: BLISTERING_INGOT_2
     7:
       material_type: slimefun
-      material: GENERATOR_COR
+      material: GENERATOR_CORE
     8:
       material_type: slimefun
       material: BLISTERING_INGOT_2
     9:
       material_type: slimefun
-      material: GENERATOR_COR  
+      material: GENERATOR_CORE  
 
 JP_棋盘:
   item_group: jp_prop
