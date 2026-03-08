@@ -1,5 +1,5 @@
 id: EpoTech
-name: EpoTech
+name: 纪元科技
 depends: []
 scriptListener: 怪物掉落
 pluginDepends:
@@ -10,6 +10,7 @@ pluginDepends:
 - Supreme
 - FoxyMachines
 - MythicMobs
+- FastAsyncWorldEdit
 version: v2.0.0
 description: 脑洞大爆炸
 authors:

@@ -4,7 +4,7 @@ jp:
   item:
     material_type: skull_hash
     material: 6b04ddaa38078952a3fd9a1314232716f926fd75226733db11a7cec52f11a78c
-    name: 'EpoTech'
+    name: '&6纪元科技'
   tier: 1
 
 #9
@@ -88,7 +88,7 @@ jp_cl:
   item:
     material_type: skull_hash
     material: 199b2761960f68c01a7f3d329fef749b0bccde5600432c11b2e08c197b475ee5
-    name: '材料'
+    name: '&f材料'
   parent: jp
 
 #17
@@ -230,7 +230,7 @@ jp_fadianji:
   item:
     material_type: skull_hash
     material: 8336054c858c0ad651f08bab6c6b3fdf1c47f5f656fd96d454e981d3fceb99c1
-    name: '发电机'  
+    name: '&b发电机'  
   parent: jp
 
 #30
@@ -240,7 +240,7 @@ jp_jq:
   item:
     material_type: skull_hash
     material: 1abb36140052ca25d159107e2f54bfc79219e6b2c476fd0d704c1ad5f87101f6
-    name: '一体化机器'
+    name: '&d一体化机器'
   parent: jp
 
 #31
@@ -250,7 +250,7 @@ jp_gws:
   item:
     material_type: skull_hash
     material: 1f575bb54a2e9133aaa1310a14642f78a014fcc9360774171663d34db236ccc4
-    name: '养鸡人'
+    name: '&e养鸡人'
   parent: jp  
 
 #32
@@ -260,7 +260,7 @@ jp_yfr:
   item:
     material_type: skull_hash
     material: c7cbf258a0e2de34c818aa8a8986313f72929e5aba9879715f4134bdc6c402d4
-    name: '养蜂人'
+    name: '&6养蜂人'
   parent: jp    
 
 #33
@@ -270,7 +270,7 @@ jp_jq_plus:
   item:
     material_type: skull_hash
     material: 930fe771fcc3ecc0530ee9545ab07797437f95e09a0eaa9b512497fe892f52fb
-    name: '机器'
+    name: '&3机器'
   parent: jp 
 
 #34

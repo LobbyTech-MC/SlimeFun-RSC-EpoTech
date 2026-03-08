@@ -8,12 +8,12 @@ function onWork(player, block) {
         
         switch (true) {
             case A.getType() === itemtype.DIAMOND_BLOCK && B.getType() === itemtype.DIAMOND_BLOCK:
-                A.setType(itemtype.AIR);
-                B.setType(itemtype.AIR);
+                A.setType(itemtype.AIR, false);
+                B.setType(itemtype.AIR, false);
                 break;
             case C.getType() === itemtype.DIAMOND_BLOCK && D.getType() === itemtype.DIAMOND_BLOCK:
-                C.setType(itemtype.AIR);
-                D.setType(itemtype.AIR);
+                C.setType(itemtype.AIR, false);
+                D.setType(itemtype.AIR, false);
                 break;
         }
     }

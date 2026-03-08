@@ -6,6 +6,12 @@ const directions = [
   {modX: -1, modZ: -1}, // 对角线3
 ];
 
+
+var BlockTypes = Packages.com.sk89q.worldedit.world.block.BlockTypes;
+var BlockVector3 = Packages.com.sk89q.worldedit.math.BlockVector3;
+var BukkitAdapter = Packages.com.sk89q.worldedit.bukkit.BukkitAdapter;
+var WorldEdit = Packages.com.sk89q.worldedit.WorldEdit;
+
 function onUse(event) {
   let player = event.getPlayer();
   let block = player.getTargetBlock(null, 10);
@@ -17,11 +23,25 @@ function onUse(event) {
 
   let location = block.getLocation().add(0, 1, 0);
   let world = block.getWorld();
-
+  var faweworld = BukkitAdapter.adapt(world);
+  var editSession = WorldEdit.getInstance().newEditSession(faweworld);
+  var blockType = BlockTypes.POLISHED_BLACKSTONE_BUTTON.getDefaultState();
+  var x = location.getBlockX();
+  var y = location.getBlockY() + 1;
+  var z = location.getBlockZ();
+  var position = BlockVector3.at(x, y, z);
   if (world.getBlockAt(location).getType() === org.bukkit.Material.AIR) {
       let buttonBlock = world.getBlockAt(location);
-      buttonBlock.setType(org.bukkit.Material.POLISHED_BLACKSTONE_BUTTON);
+      buttonBlock.setType(org.bukkit.Material.POLISHED_BLACKSTONE_BUTTON, false);
 
+	  try {
+		editSession.setBlock(position, blockType);
+		editSession.flushSession(); 
+	  } catch (e) {
+        player.sendMessage("放置失败, 发生了一些异常错误，请联系管理员或重新放置！ ");
+      } finally {
+		editSession.close();
+      }
       let buttonData = buttonBlock.getBlockData();
       if (buttonData instanceof org.bukkit.block.data.type.Switch) {
           buttonData.setAttachedFace(org.bukkit.block.data.FaceAttachable.AttachedFace.FLOOR);

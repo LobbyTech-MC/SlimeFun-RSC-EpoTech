@@ -8,12 +8,12 @@ function onWork(player, block) {
         
         switch (true) {
             case A.getType() === itemtype.GOLD_BLOCK && B.getType() === itemtype.GOLD_BLOCK:
-                A.setType(itemtype.REINFORCED_DEEPSLATE);
-                B.setType(itemtype.REINFORCED_DEEPSLATE);
+                A.setType(itemtype.REINFORCED_DEEPSLATE, false);
+                B.setType(itemtype.REINFORCED_DEEPSLATE, false);
                 break;
             case C.getType() === itemtype.GOLD_BLOCK && D.getType() === itemtype.GOLD_BLOCK:
-                C.setType(itemtype.REINFORCED_DEEPSLATE);
-                D.setType(itemtype.REINFORCED_DEEPSLATE);
+                C.setType(itemtype.REINFORCED_DEEPSLATE, false);
+                D.setType(itemtype.REINFORCED_DEEPSLATE, false);
                 break;
         }
     }
